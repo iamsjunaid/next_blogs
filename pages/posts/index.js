@@ -1,49 +1,19 @@
-import { Fragment } from "react";
-import Hero from "../../components/home-page/hero";
-import FeaturedPosts from "../../components/home-page/featured-posts";
+import AllPosts from "../../components/posts/all-posts";
+import { getAllPosts } from "../../lib/posts-util";
 
-const DUMMY_POSTS = [
-  {
-    slug: "getting-started-with-nextjs",
-    title: "Getting Started with NextJS",
-    image: "getting-started-nextjs.png",
-    excerpt:
-      "NextJS is a React framework that provides features like server-side rendering, API routes, file-based routing, and more!",
-    date: "2022-02-10",
-  },
-  {
-    slug: "getting-started-with-nextjs1",
-    title: "Getting Started with NextJS",
-    image: "getting-started-nextjs.png",
-    excerpt:
-      "NextJS is a React framework that provides features like server-side rendering, API routes, file-based routing, and more!",
-    date: "2022-02-10",
-  },
-  {
-    slug: "getting-started-with-nextjs2",
-    title: "Getting Started with NextJS",
-    image: "getting-started-nextjs.png",
-    excerpt:
-      "NextJS is a React framework that provides features like server-side rendering, API routes, file-based routing, and more!",
-    date: "2022-02-10",
-  },
-  {
-    slug: "getting-started-with-nextjs3",
-    title: "Getting Started with NextJS",
-    image: "getting-started-nextjs.png",
-    excerpt:
-      "NextJS is a React framework that provides features like server-side rendering, API routes, file-based routing, and more!",
-    date: "2022-02-10",
-  },
-];
+function AllPostsPage(props) {
+  // console.log(props.posts);
+  return <AllPosts posts={props.posts} />;
+}
 
-function AllPostsPage() {
-  return (
-    <Fragment>
-      <Hero />
-      <FeaturedPosts posts={DUMMY_POSTS}/>
-    </Fragment>
-  );
+export function getStaticProps() {
+  const allPosts = getAllPosts();
+  // console.log(allPosts);
+  return {
+    props: {
+      posts: allPosts,
+    },
+  };
 }
 
 export default AllPostsPage;
