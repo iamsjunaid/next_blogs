@@ -1,9 +1,8 @@
-function PostDetail() {
-  return (
-    <div>
-      <h1>TITLE</h1>
-    </div>
-  );
+import PostContent from "./post-detail/post-content";
+
+function PostDetailPage() {
+  return <PostContent />;
 }
 
-export default PostDetail;
+export default PostDetailPage;
+ 
