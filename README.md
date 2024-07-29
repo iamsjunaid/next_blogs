@@ -15,35 +15,35 @@ This project is a comprehensive course platform built with Next.js, leveraging t
 
 To get started with this project, clone the repository and install the dependencies.
 
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd nextjs-course
 npm install
-\`\`\`
+```
 
 ## Available Scripts
 
 In this project, you will need to setup your environment variables. Create a .env.local file in the root of your project and add the following environment variables:
 
-\`\`\`bash
+```bash
 MONGODB_URI=your_mongodb_uri
-\`\`\`
+```
 
 Then you can run:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 Runs the app in development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 Builds the app for production to the .next folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-\`\`\`bash
+```bash
 npm run start
-\`\`\`
+```
 Starts the application in production mode. The application should be compiled with npm run build first.
 
 ## Dependencies
