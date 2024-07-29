@@ -16,7 +16,7 @@ This project is a comprehensive course platform built with Next.js, leveraging t
 To get started with this project, clone the repository and install the dependencies.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/iamsjunaid/next_blogs
 cd nextjs-course
 npm install
 ```
