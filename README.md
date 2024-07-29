@@ -1,6 +1,6 @@
 # Next.js Course Platform
 
-This project is a comprehensive course platform built with Next.js, leveraging the power of React for building user interfaces and MongoDB for database management. It also uses gray-matter for parsing front-matter from markdown files, react-markdown for rendering markdown content, and react-syntax-highlighter for syntax highlighting in markdown.
+Leveraging the power of NextJS & React for building user interfaces and MongoDB for database management. It also uses gray-matter for parsing front-matter from markdown files, react-markdown for rendering markdown content, and react-syntax-highlighter for syntax highlighting in markdown.
 
 ## Features
 
