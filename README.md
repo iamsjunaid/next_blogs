@@ -1,4 +1,4 @@
-# Next.js Course Platform
+# Next Blog
 
 Leveraging the power of NextJS & React for building user interfaces and MongoDB for database management. It also uses gray-matter for parsing front-matter from markdown files, react-markdown for rendering markdown content, and react-syntax-highlighter for syntax highlighting in markdown.
 
@@ -16,7 +16,7 @@ Leveraging the power of NextJS & React for building user interfaces and MongoDB 
 To get started with this project, clone the repository and install the dependencies.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/iamsjunaid/next_blogs
 cd nextjs-course
 npm install
 ```
